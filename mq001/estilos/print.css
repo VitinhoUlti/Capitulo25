@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+article::after{
+    content: 'Esse Artigo foi baixado no site impresso.com por uma impressora';
+}
+/*estilo para impressoras*/

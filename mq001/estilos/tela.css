@@ -1,0 +1,44 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0%;
+    margin-bottom: 0%;
+}
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(/imagens/back-print.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    background-color: rgb(128, 128, 128);
+}
+header > h1{
+    background-color: rgb(128, 128, 128);
+    text-align: center;
+    padding: 10px;
+}
+menu > ul{
+    background-color: darkgray;
+    list-style-type: none;
+}
+
+menu li{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(105, 105, 105, 0.432);
+}
+menu li:hover{
+    background-color: rgba(105, 105, 105, 0.808);
+}
+main{
+    width: 600px;
+    display: block;
+    background-color: white;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: auto;
+}
+/*estilos para telas*/
